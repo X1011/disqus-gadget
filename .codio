@@ -1,0 +1,11 @@
+{
+"commands": {
+	 "Run server": "versal preview"
+	,"Upload to sandbox": "versal upload"
+}
+,
+"preview": {
+	 "Preview": "http://{{domain}}:3000/"
+	,"ungit": "https://{{domain}}:9501/#/repository?path=/home/codio/workspace"
+}
+}
