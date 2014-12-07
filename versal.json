@@ -1,16 +1,16 @@
 {
-  "name": "hello-world",
-  "version": "0.1.5",
-  "title": "Hello, World",
-  "description": "Demo gadget showing the basic API",
-  "author": {
-    "name": "dan smith",
-    "email": "XX1011@gmail.com",
-    "homepage": "http://X1011.com"
-  },
-  "launcher": "iframe",
-  "defaultConfig": {
-  },
-  "defaultUserState": {
-  }
+	"name": "hello-world",
+	"version": "0.1.5",
+	"title": "Hello, World",
+	"description": "Demo gadget showing the basic API",
+	"author": {
+		"name": "dan smith",
+		"email": "XX1011@gmail.com",
+		"homepage": "http://X1011.com"
+	},
+	"launcher": "iframe",
+	"defaultConfig": {
+	},
+	"defaultUserState": {
+	}
 }
