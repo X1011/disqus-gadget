@@ -10,10 +10,7 @@
   },
   "launcher": "iframe",
   "defaultConfig": {
-      "chosenColor" : "#00cc00",
-      "chosenWord" : "green"
   },
   "defaultUserState": {
-      "isBold" : false
   }
 }
