@@ -10,10 +10,9 @@
   "license": "BSD",
   "ignore": [
     "**/.*",
+    "**/*_test.js",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "dependencies": {
     "versal-gadget-api": "0.0.1"
