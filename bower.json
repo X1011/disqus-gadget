@@ -2,9 +2,11 @@
   "name": "hello-world-gadget",
   "version": "0.0.1",
   "homepage": "https://github.com/Versal/gadget-dev-intro",
-  "authors": [
-    "sergei@versal.com"
-  ],
+  "authors": [{
+    "name": "dan smith",
+    "email": "XX1011@gmail.com",
+    "homepage": "http://X1011.com"
+  }],
   "license": "MIT",
   "ignore": [
     "**/.*",
