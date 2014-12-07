@@ -7,7 +7,7 @@
     "email": "XX1011@gmail.com",
     "homepage": "http://X1011.com"
   }],
-  "license": "MIT",
+  "license": "BSD",
   "ignore": [
     "**/.*",
     "node_modules",
