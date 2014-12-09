@@ -1,11 +1,15 @@
 {
 "commands": {
-	 "Run server": "versal preview"
-	,"Upload to sandbox": "versal upload"
+	 "tmux": "tmux attach"
+	,"Versal": "versal preview"
+	,"upload to sandbox": "versal upload"
+	,"BrowserSync https": "browser-sync start --server --files '*.html,*.js,*.css' --port 9502 --https"
+	,"BrowserSync http":  "browser-sync start --server --files '*.html,*.js,*.css' --port 1024"
 }
 ,
 "preview": {
-	 "Preview": "http://{{domain}}:3000/"
+	 "BrowserSync": "http://burger-hello.codio.io:1024/versal.html"
+	,"Versal": "http://{{domain}}:3000/"
 	,"ungit": "https://{{domain}}:9501/#/repository?path=/home/codio/workspace"
 }
 }
