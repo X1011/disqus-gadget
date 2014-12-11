@@ -6,6 +6,18 @@
 	<link rel='stylesheet' href='main.css'>
 	
 	<script src='https://jspm.io/system@0.9.js'></script>
-	<script>System.import('~/main')</script>
+	<script>
+		System.map['versal-player-api'] = 'github:Versal/versal-gadget-api/versal-player-api';
+		
+		//versal-player-api has a global dependency on EventEmitter
+		System.meta['github:Versal/versal-gadget-api/versal-player-api'] = {
+			deps: ['github:Wolfy87/EventEmitter']
+		};
+		
+		System.import('~/main');
+	</script>
 </head>
+<body>
+	Disqus
+</body>
 </html>

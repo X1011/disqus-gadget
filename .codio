@@ -1,6 +1,6 @@
 {
 "commands": {
-	 "tmux": "tmux attach"
+	 "tmux": "tmux attach || tmux new"
 	,"Versal": "versal preview"
 	,"upload to sandbox": "versal upload"
 	,"BrowserSync https": "browser-sync start --server --files '*.html,*.js,*.css' --port 9502 --https"

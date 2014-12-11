@@ -1,6 +1,1 @@
-(function(){
-/* global VersalPlayerAPI, VersalChallengesAPI */
-
-
-
-})();
+import player from 'versal-player-api';
