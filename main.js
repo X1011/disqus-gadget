@@ -1,4 +1,10 @@
-import player from 'versal-player-api';
+import VersalPlayerAPI from 'versal-player-api';
+
+var player = new VersalPlayerAPI();
+player.on('attributesChanged', function(){});
+player.on('learnerStateChanged', function(){});
+player.on('editableChanged', function(){});
+player.startListening();
 
 var disqus_shortname = 'x1011-test';
 
