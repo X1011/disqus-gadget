@@ -1,7 +1,11 @@
 import VersalPlayerAPI from 'versal-player-api';
 
 var player = new VersalPlayerAPI();
-player.watchBodyHeight({interval: 1000});
+player.watchBodyHeight({interval: 200});
+player.on('editableChanged', function(data) {
+	document.body.classList.toggle('editable', data.editable);
+});
+player.startListening();
 
 
 //Disqus embed code

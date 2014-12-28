@@ -4,3 +4,5 @@ body {
 	color: #7c7975;
 }
 
+.author {display: none}
+.editable .author {display: inherit}
