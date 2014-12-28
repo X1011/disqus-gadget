@@ -6,6 +6,7 @@ player.on('editableChanged', function(data) {
 	document.body.classList.toggle('editable', data.editable);
 });
 player.startListening();
+player.sendMessage('setEmpty');
 
 
 //Disqus embed code
